@@ -1,0 +1,16 @@
+{
+  "name": "discord-token-onliner-main",
+  "version": "1.0.0",
+  "description": "Makes multiple Discord accounts go online  by using their 0Auth token",
+  "main": "onliner.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js11": "npm:discord.js@^11.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
