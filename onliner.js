@@ -27,7 +27,7 @@ class Bot {
         this.bot.on('ready', () => {
             this.bot.user.setPresence({
                 game: {
-                    name: items[Math.floor(Math.random() * items.length)], //Thanks to vjjjj for helping figure this part out
+                    name: items[Math.floor(Math.random() * items.length)], 
                     type: "PLAYING"
                 }
             });
@@ -37,7 +37,7 @@ class Bot {
     }
 }
 
-process.title = ` Neast ΣB3#1407 | Total Accounts: ${tokens.length}`;
+process.title = ` Neast#1407 | Total Accounts: ${tokens.length}`;
 
 
 var i = 0;
